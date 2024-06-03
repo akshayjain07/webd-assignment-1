@@ -1,8 +1,8 @@
 import FAQ from "@/components/FAQ";
-import GetStarted from "@/components/GetStarted";
+// import GetStarted from "@/components/GetStarted";
 import HeroSection from "@/components/HeroSection";
-import SampleComponent from "@/components/SampleComponent";
-import Testimonial from "@/components/Testimonial";
+// import SampleComponent from "@/components/SampleComponent";
+// import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (

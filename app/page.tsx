@@ -1,8 +1,11 @@
+import Advantages1 from "@/components/Advantages1";
+import Advantages2 from "@/components/Advantages2";
 import FAQ from "@/components/FAQ";
-// import GetStarted from "@/components/GetStarted";
+import Features from "@/components/Features";
+import GetStarted from "@/components/GetStarted";
 import HeroSection from "@/components/HeroSection";
 // import SampleComponent from "@/components/SampleComponent";
-// import Testimonial from "@/components/Testimonial";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -11,10 +14,13 @@ export default function Home() {
       style={{ backgroundImage: "url('/assets/images/background.svg')" }}
     >
       <HeroSection/>
+      <Features/>
+      <Advantages1/>
+      <Advantages2/>
       {/* <SampleComponent /> */}
-      {/* <Testimonial /> */}
+      <Testimonial />
       <FAQ />
-      {/* <GetStarted /> */}
+      <GetStarted />
     </main>
   );
 }

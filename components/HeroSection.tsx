@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
                 <Button text="Watch Video" iconSrc="/assets/icons/watchVideo.svg" className="flex items-center text-black" />
               </div>
             </div>
-            <div className=' md:hidden px-10 sm:px-15 md:px-15 lg:px-20 pt-5 md:pt-8 lg:pt-8'>
+            <div className=' md:hidden lg:block px-10 sm:px-15 md:px-15 lg:px-20 pt-5 md:pt-8 lg:pt-8'>
               <Image src="/assets/images/herosectionleft.svg" alt="herosectionleft" width={600} height={400} className="mt-6 w-full object-cover"/>
             </div>
           </div>

@@ -20,7 +20,8 @@ export default function Home() {
       {/* <SampleComponent /> */}
       <Testimonial />
       <FAQ />
-      <GetStarted />
+      <div className="p-20"><GetStarted /></div>
+      
     </main>
   );
 }
